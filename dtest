@@ -1,0 +1,3 @@
+#!/usr/bin/env zsh
+
+dmenu_run -hp "discord" 
