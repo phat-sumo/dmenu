@@ -11,10 +11,10 @@ static const char *fonts[] = {
 static const char *prompt      = NULL;      /* -p  option; prompt to the left of input field */
 static const char *colors[SchemeLast][2] = {
 	/*     fg         bg       */
-	[SchemeNorm] = { "#87ffff", "#262626" },
-	[SchemeSel] = { "#262626", "#87ffff" },
-	[SchemeOut] = { "#262626", "#ff87d7" },
-  [SchemeHp] = { "#262626", "#87ffff" }
+	[SchemeNorm] = { "#87ffff", "#303030" },
+	[SchemeSel] = { "#303030", "#87ffff" },
+	[SchemeOut] = { "#303030", "#ff87d7" },
+  [SchemeHp] = { "#303030", "#87ffff" }
 };
 /* -l and -g options; controls number of lines and columns in grid if > 0 */
 static unsigned int lines      = 3;
