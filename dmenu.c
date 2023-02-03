@@ -198,7 +198,7 @@ drawmenu(void)
 	curpos = TEXTW(text) - TEXTW(&text[cursor]);
 	if ((curpos += lrpad / 2 - 1) < w) {
 		drw_setscheme(drw, scheme[SchemeNorm]);
-		drw_rect(drw, x + curpos, 2 + (bh-fh)/2, 2, fh - 4, 1, 0);
+		drw_rect(drw, x + curpos + 2, 14 + (bh-fh)/2, fh - 8, 1, 1, 0);
 	}
 
 	if (lines > 0) {
